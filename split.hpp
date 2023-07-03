@@ -108,7 +108,7 @@ private:
                     continue;
                 }
             }
-            else if (view[i] == partition)
+            else if (view[i] == partition && status == 0)
             {
                 if (beg != end)
                     result.push_back(view.substr(beg, end - beg));

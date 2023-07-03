@@ -46,13 +46,13 @@ public:
     // 用一个字符分割字符串，单引号中的内容视为一个整体，单引号错误返回false，\'进行转义
     bool Spilt_With_Char_Connect_With_Quote(const char partition)
     {
-        return Spilt_With_Char_Connect_With_char(partition, '\"');
+        return Spilt_With_Char_Connect_With_char(partition, '\'');
     }
 
     // 用一个字符分割字符串，双引号中的内容视为一个整体,双引号错误返回false，\"进行转移
     bool Spilt_With_Char_Connect_With_Double_Quote(const char partition)
     {
-        return Spilt_With_Char_Connect_With_char(partition, '\'');
+        return Spilt_With_Char_Connect_With_char(partition, '\"');
     }
 
     void Set_Buffer(string buffer)

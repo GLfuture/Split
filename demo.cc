@@ -1,6 +1,7 @@
-#include"split.hpp"
+#include"Split.hpp"
 #include<iostream>
 using namespace std;
+using namespace Split_NSP;
 int main()
 {
     Split base("hello  world  !  select  *  \r\n");
